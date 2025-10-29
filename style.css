@@ -2,8 +2,20 @@ body {
     display: flex;
     flex-direction: column;
     background-image: url('./images/p2.png');
-    background-size: 100vh auto;
+    background-size: 100vh;
     background-repeat: no-repeat;
-    background-position: top center;
+    background-position: top left;
     color: #fe9;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    /* background: rgba(30, 30, 30, 0.9); */
+    color: #fe9;
+    text-align: center;
+    padding: 1em 0;
+    z-index: 100;
 }
