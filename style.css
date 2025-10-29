@@ -1,6 +1,8 @@
 body {
+    display: flex;
+    flex-direction: column;
     background-image: url('./images/p2.png');
-    background-size: 100% auto;
+    background-size: 100vh auto;
     background-repeat: no-repeat;
     background-position: top center;
     color: #fe9;
